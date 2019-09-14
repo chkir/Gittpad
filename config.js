@@ -49,7 +49,7 @@ module.exports = {
       line: '',
       gitlab: '',
       weibo: ''
-    */
     }
+    */
   }
 };
