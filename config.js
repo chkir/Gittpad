@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://gittpad.com',
   pathPrefix: '/',
   title: 'Open-source blog',
-  subtitle: 'An open-source blog anyone can contribute to.<br>Please read the wiki before using this website.',
+  subtitle: 'An open-source blog anyone can contribute to. Please read the wiki before using this website.',
   copyright: 'Website under the AGPL-3.0 license.',
   disqusShortname: 'gittpad',
   postsPerPage: 4,
@@ -35,7 +35,7 @@ module.exports = {
   author: {
     name: 'Gittpad',
     photo: '/photo.jpg',
-    bio: 'An open-source blog anyone can contribute to.<br>Please read the wiki before using this website.',
+    bio: 'An open-source blog anyone can contribute to. Please read the wiki before using this website.',
     contacts: {
       email: 'hadrienserralheiro@gmail.com',
       facebook: '',
