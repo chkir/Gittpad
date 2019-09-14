@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://gittpad.com',
   pathPrefix: '/',
   title: 'Open-source blog',
-  subtitle: 'An open-source blog anyone can contribute to.',
+  subtitle: 'An open-source blog anyone can contribute to.<br>Please read the wiki before using this website.',
   copyright: 'Website under the AGPL-3.0 license.',
   disqusShortname: 'gittpad',
   postsPerPage: 4,
@@ -16,19 +16,27 @@ module.exports = {
       path: '/'
     },
     {
-      label: 'About',
-      path: '/pages/about'
+      label: 'Authors',
+      path: '/authors'
     },
     {
-      label: 'Contact',
-      path: '/pages/contacts'
+      label: 'Categories',
+      path: '/categories'
+    },
+    {
+      label: 'Tags',
+      path: '/tags'
+    },
+    {
+      label: 'Wiki',
+      path: '/pages/wiki'
     }
   ],
   author: {
     name: 'Gittpad',
     photo: '/photo.jpg',
     bio: 'An open-source blog anyone can contribute to.',
-    contacts: {
+    /*contacts: {
       email: 'hadrienserralheiro@gmail.com',
       facebook: '#',
       telegram: '#',
@@ -41,6 +49,7 @@ module.exports = {
       line: '',
       gitlab: '',
       weibo: ''
+    */
     }
   }
 };
