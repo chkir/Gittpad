@@ -1,39 +1,39 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://gittpad.com',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
-  copyright: '© All rights reserved.',
-  disqusShortname: '',
+  title: 'Open-source blog',
+  subtitle: 'An open-source blog anyone can contribute to.',
+  copyright: 'Website under the AGPL-3.0 license.',
+  disqusShortname: 'gittpad',
   postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
-  useKatex: false,
+  googleAnalyticsId: 'UA-138883887-3',
+  useKatex: true,
   menu: [
     {
       label: 'Articles',
       path: '/'
     },
     {
-      label: 'About me',
+      label: 'About,
       path: '/pages/about'
     },
     {
-      label: 'Contact me',
+      label: 'Contact',
       path: '/pages/contacts'
     }
   ],
   author: {
-    name: 'John Doe',
+    name: 'Gittpad',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: 'An open-source blog anyone can contribute to.',
     contacts: {
-      email: '',
+      email: 'hadrienserralheiro@gmail.com',
       facebook: '#',
       telegram: '#',
       twitter: '#',
-      github: '#',
+      github: 'https://github.com/lief2/Gittpad',
       rss: '',
       vkontakte: '',
       linkedin: '#',
