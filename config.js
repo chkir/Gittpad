@@ -38,17 +38,17 @@ module.exports = {
     bio: 'An open-source blog anyone can contribute to.',
     contacts: {
       email: 'hadrienserralheiro@gmail.com',
-      //facebook: '#',
-      //telegram: '#',
-      //twitter: '#',
+      facebook: '#',
+      telegram: '#',
+      twitter: '#',
       github: 'https://github.com/lief2/Gittpad',
-      //rss: '',
-      //vkontakte: '',
-      //linkedin: '#',
-      //instagram: '#',
-      //line: '',
-      //gitlab: '',
-      //weibo: ''
+      rss: '',
+      vkontakte: '',
+      linkedin: '#',
+      instagram: '#',
+      line: '',
+      gitlab: '',
+      weibo: ''
     }
   }
 };
